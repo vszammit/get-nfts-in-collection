@@ -36,6 +36,8 @@ Follow these steps to run the script:
 
 By following these steps, the script will execute and fetch metadata of the NFTs included in the specified collection address, printing out the desired fields to the console.
 
+## Other Notes 
+On line 21, `omitMetadata` is set to false. This allows us to access metadata such as token supply and image URL. If `omitMetadata` is set to true, then only the token ID field would be accessible. This can be shown in the [Alchemy API reference](https://docs.alchemy.com/reference/getnftsforcollection).
 
 ## Frequently Used Options and Best Practices
 When working with the Alchemy SDK, there are several options and best practices that you can consider:
