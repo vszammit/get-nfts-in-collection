@@ -14,10 +14,10 @@ Before running the script, ensure that you have [Node.js](https://docs.npmjs.com
 Follow these steps to run the script:
 
 1. Clone this repository to your local machine:
-`git clone `
+`git clone https://github.com/vszammit/get-nfts-in-collection.git`
 
 
-2. Navigate to the project folder: `cd `
+2. Navigate to the project folder: `cd get-nfts-in-collection`
 
 
 3. Open the `sample.env` file and update the value for the API Key to your own value and rename file to `.env`. If you don't have an Alchemy API Key yet you can [create one for free here](https://alchemy.com/?a=starter-code).
