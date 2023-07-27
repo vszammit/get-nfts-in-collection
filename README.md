@@ -22,7 +22,7 @@ Follow these steps to run the script:
 
 3. Open the `sample.env` file and update the value for the API Key to your own value and rename file to `.env`. If you don't have an Alchemy API Key yet you can [create one for free here](https://alchemy.com/?a=starter-code).
 
-4. Open `get_nfts.js` and update the value of the collection contract address found within the main function to reflect the contract that you will be querying. 
+4. Open `get_nfts.js` and update the value of the collection contract address on line 18 to reflect the contract that you will be querying. 
 
 
 5. Initialize the project by running the following command: `yarn init --yes`
@@ -34,7 +34,7 @@ Follow these steps to run the script:
 7. Run the script in the terminal: `node get_nfts.js`
 
 
-By following these steps, the script will execute and fetch the NFTs included in the specified collection address, printing out the desired fields to the console.
+By following these steps, the script will execute and fetch metadata of the NFTs included in the specified collection address, printing out the desired fields to the console.
 
 
 ## Frequently Used Options and Best Practices
