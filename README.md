@@ -25,10 +25,12 @@ Follow these steps to run the script:
 4. Open `getNFTs.js` and update the value of the collection contract address on line 18 to reflect the contract that you will be querying. 
 
 
-5. Install the Alchemy SDK and the `dotenv` package running either of the following commands: `yarn add alchemy-sdk dotenv` or `npm i alchemy-sdk dotenv`
+5. Install the Alchemy SDK and the `dotenv` package running either of the following commands:
+   - `yarn add alchemy-sdk dotenv`
+   - `npm i alchemy-sdk dotenv`
 
 
-6. Run the script in the terminal: `node getNFTs.js`
+7. Run the script in the terminal: `node getNFTs.js`
 
 
 By following these steps, the script will execute and fetch metadata of the NFTs included in the specified collection address, printing out the desired fields to the console.
